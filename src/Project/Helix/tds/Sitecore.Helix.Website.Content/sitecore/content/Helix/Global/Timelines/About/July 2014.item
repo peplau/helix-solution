@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {225A6D98-76FE-40ED-9BD6-6829B22755A2}
+database: master
+path: /sitecore/content/Helix/Global/Timelines/About/July 2014
+parent: {DE39FCED-96CA-4CC0-8114-7C8AB9862D97}
+name: July 2014
+master: {00000000-0000-0000-0000-000000000000}
+template: {FC7E95F4-B089-4FAC-8E03-288463303AC8}
+templatekey: Timeline entry
+created: 20170506T201007Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: en
+version: 1
+revision: 40d69cda-369d-404a-9d95-f1b80905388d
+
+----field----
+field: {20AB9787-F55C-40AF-8190-33D12557244C}
+name: Heading
+key: heading
+content-length: 9
+
+July 2014
+----field----
+field: {B69883C0-9DDE-4B49-909F-37758B563E7C}
+name: Subheading
+key: subheading
+content-length: 19
+
+Phase Two Expansion
+----field----
+field: {3F71B7A7-3C50-498F-9020-48C8DFF341DF}
+name: Body
+key: body
+content-length: 215
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+----field----
+field: {3CD351FA-4931-4809-8A34-F18D43E0741E}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{02D8357C-2CA9-41E0-8F7F-1392EED928B4}" />
+----field----
+field: {37236BB5-0F39-4D21-9CE6-9FA8BBB06A64}
+name: CSS Class
+key: css class
+content-length: 17
+
+timeline-inverted
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170506T201007Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+40d69cda-369d-404a-9d95-f1b80905388d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170506T201045Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

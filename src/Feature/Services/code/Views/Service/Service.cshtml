@@ -1,0 +1,17 @@
+﻿@using Sitecore.Feature.Service.Templates
+@{
+    if (Model == null || Model.Item == null)
+    {
+        return;
+    }
+    var wrapper = new __Service(Model.Item);
+    var iconClass = wrapper.IconCSSClass;
+}
+<div class="col-md-4">
+    <span class="fa-stack fa-4x">
+        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+        <i class="fa @iconClass fa-stack-1x fa-inverse"></i>
+    </span>
+    <h4 class="service-heading">@Html.Sitecore().Field(__Service.FieldIds.Heading.ToString(), Model.Item)</h4>
+    <p class="text-muted">@Html.Sitecore().Field(__Service.FieldIds.Text.ToString(), Model.Item)</p>
+</div>

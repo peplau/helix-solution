@@ -1,0 +1,17 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="11" designerY="12">
+    <template templatename="_BoxWithModal" templateid="{0491116A-44CB-4ECD-B210-1DA10B69044C}" templateuri="/techguilds.dev.local/master/{0491116A-44CB-4ECD-B210-1DA10B69044C}" classname="__BoxWithModal">
+      <section id="{6DD9D861-FBC0-46ED-B238-006D9CE341DB}" name="Box">
+        <field id="{F35D2956-0D4C-42F8-B50A-2AA1E81D7ACC}" name="Box title" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="BoxTitle" />
+        <field id="{EC102602-45EF-478C-BEE9-44F47E6D5DB7}" name="Box subtitle" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="BoxSubtitle" />
+        <field id="{FC108CF0-6828-4D8B-8955-1F6936F19E3E}" name="Box image" shared="0" source="" type="Image" unversioned="0" propertyname="BoxImage" />
+      </section>
+      <section id="{FCC58E5D-4522-4B0F-8CEE-C310B7921C38}" name="Modal">
+        <field id="{0ABB10F3-7E15-4803-A7DE-21E184EC555C}" name="Modal title" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="ModalTitle" />
+        <field id="{EAA44868-4E8F-4D31-B109-61F0CF18C843}" name="Modal intro text" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="ModalIntroText" />
+        <field id="{FDE400AF-E23B-4249-B46B-65F166CE50C0}" name="Modal image" shared="0" source="" type="Image" unversioned="0" propertyname="ModalImage" />
+        <field id="{73F1A95D-79B3-4B5C-AAB5-84EC7E804C59}" name="Modal content" shared="0" source="" type="Rich Text" unversioned="0" propertyname="ModalContent" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>

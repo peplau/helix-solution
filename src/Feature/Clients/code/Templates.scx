@@ -1,0 +1,13 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="13" designerY="13">
+    <template templatename="_Client" templateid="{6084076C-A965-4E9D-9B3E-0AC0948C9A5C}" templateuri="/techguilds.dev.local/master/{6084076C-A965-4E9D-9B3E-0AC0948C9A5C}" classname="__Client">
+      <section id="{AA0333B6-F591-4F34-BB6E-CA16F4656EAD}" name="Content">
+        <field id="{F2A54998-9D1D-4291-A7C7-19869C588A41}" name="Image" shared="0" source="" type="Image" unversioned="0" propertyname="Image" />
+        <field id="{AE6C0D9D-5BDD-4D47-BB3A-2F7AD40FE43E}" name="Link" shared="0" source="" type="General Link" unversioned="0" propertyname="Link" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="226" designerY="15">
+    <template templatename="_Clients" templateid="{ED87068F-59FA-409F-82E3-5BC021A638DC}" templateuri="/techguilds.dev.local/master/{ED87068F-59FA-409F-82E3-5BC021A638DC}" classname="__Clients" />
+  </shape>
+</CodeGeneration>

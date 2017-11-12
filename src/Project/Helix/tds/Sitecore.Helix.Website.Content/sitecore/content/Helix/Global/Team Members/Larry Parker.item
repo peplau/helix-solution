@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {F360D9A3-B5BA-4B1A-90EB-B9F77B041A51}
+database: master
+path: /sitecore/content/Helix/Global/Team Members/Larry Parker
+parent: {ED1FBE02-B524-4CAB-8FEE-D0E83BDBAF1E}
+name: Larry Parker
+master: {00000000-0000-0000-0000-000000000000}
+template: {84A469B0-EACC-4896-8D03-B922E60A7260}
+templatekey: Team Member
+created: 20170528T212035Z
+
+----version----
+language: en
+version: 1
+revision: 8566ef81-fee6-4a9e-89ab-24f83a498b98
+
+----field----
+field: {95BD8AF6-EE12-4602-A056-9BC9497857C9}
+name: Name
+key: name
+content-length: 12
+
+Larry Parker
+----field----
+field: {B2CF3BF3-0DE7-495B-99FF-1319343C8063}
+name: Role
+key: role
+content-length: 13
+
+Lead Marketer
+----field----
+field: {47C1237C-36F5-4BC9-B98B-4FE424F307C2}
+name: Picture
+key: picture
+content-length: 65
+
+<image mediaid="{D34CECF1-6C59-4D23-B5AB-7EBDB6DE8915}" ></image>
+----field----
+field: {631AF1FC-3E3A-445B-8766-A00657C55300}
+name: Twitter
+key: twitter
+content-length: 92
+
+<link text=" " linktype="external" url="http://www.twitter.com" anchor="" target="_blank" />
+----field----
+field: {2F1EC3AE-FDA9-483B-8AE8-8B71FEDB1CB9}
+name: Facebook
+key: facebook
+content-length: 92
+
+<link text=" " linktype="external" url="http://www.twitter.com" anchor="" target="_blank" />
+----field----
+field: {A9100FC4-CE6F-4D7C-B66B-BEA47115F662}
+name: LinkedIn
+key: linkedin
+content-length: 92
+
+<link text=" " linktype="external" url="http://www.twitter.com" anchor="" target="_blank" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170528T212035Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8566ef81-fee6-4a9e-89ab-24f83a498b98
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170528T220458Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

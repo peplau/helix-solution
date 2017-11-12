@@ -1,0 +1,9 @@
+﻿@using Sitecore.Forms.Mvc.Html
+@model Sitecore.Forms.Mvc.ViewModels.FieldViewModel
+
+@using (Html.BeginField())
+{
+    <div class="test">
+        @Html.BootstrapEditor("Value")
+    </div>
+}

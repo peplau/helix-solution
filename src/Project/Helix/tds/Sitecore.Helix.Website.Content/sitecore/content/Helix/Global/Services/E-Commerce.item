@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {1C37F02E-98D8-4A9B-8C23-5C33B2747EC3}
+database: master
+path: /sitecore/content/Helix/Global/Services/E-Commerce
+parent: {B3449373-F82C-4E29-87EF-FD7355C3D059}
+name: E-Commerce
+master: {00000000-0000-0000-0000-000000000000}
+template: {9E3237C1-E004-44A2-B262-9A4957FDE228}
+templatekey: Service
+created: 20170501T234258Z
+
+----version----
+language: en
+version: 1
+revision: 4b394632-08c5-4c55-91b5-d0ac09250a2a
+
+----field----
+field: {F992F229-88DA-42E7-B5DC-5DC6F1413C93}
+name: Heading
+key: heading
+content-length: 10
+
+E-Commerce
+----field----
+field: {E40855CB-B25E-42BB-A804-3491583C5130}
+name: Text
+key: text
+content-length: 132
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+----field----
+field: {A73C362A-D9E7-4027-BA03-E3167A5CA888}
+name: Icon CSS Class
+key: icon css class
+content-length: 16
+
+fa-shopping-cart
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170501T234258Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4b394632-08c5-4c55-91b5-d0ac09250a2a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170501T234317Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

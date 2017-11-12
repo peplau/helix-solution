@@ -1,0 +1,25 @@
+﻿@using Sitecore.Feature.BoxWithModal.Templates;
+@model Sitecore.Mvc.Presentation.Rendering
+@{
+    var wrapper = new __BoxWithModal(Model.Item);
+
+    var boxId = string.Format("#portfolioModal{0}", wrapper.ID.ToShortID());
+    var hoverClass = Sitecore.Context.PageMode.IsExperienceEditorEditing ? String.Empty : "portfolio-hover";
+}
+<div class="col-md-4 col-sm-6 portfolio-item">
+    <a href="@boxId" class="portfolio-link" data-toggle="modal">
+        <div class="@hoverClass">
+            @if (!Sitecore.Context.PageMode.IsExperienceEditorEditing)
+            {
+                <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                </div>
+            }
+        </div>
+        @Html.Sitecore().Field(__BoxWithModal.FieldIds.BoxImage.ToString(), wrapper.InnerItem, new { @class = "img-responsive" })
+    </a>
+    <div class="portfolio-caption">
+        <h4>@Html.Sitecore().Field(__BoxWithModal.FieldIds.BoxTitle.ToString(), wrapper.InnerItem)</h4>
+        <p class="text-muted">@Html.Sitecore().Field(__BoxWithModal.FieldIds.BoxSubtitle.ToString(), wrapper.InnerItem)</p>
+    </div>
+</div>

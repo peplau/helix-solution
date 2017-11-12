@@ -1,0 +1,18 @@
+﻿@using Sitecore.Feature.Clients.Templates;
+@model Sitecore.Feature.Clients.Models.Clients
+@{
+}
+<aside class="clients">
+    <div class="container">
+        <div class="row">
+            @foreach (__Client client in Model.ClientList)
+            {
+                <div class="col-md-3 col-sm-6">
+                    @Html.Sitecore().BeginField(__Client.FieldIds.Link.ToString(), client.InnerItem)
+                        @Html.Sitecore().Field(__Client.FieldIds.Image.ToString(), client.InnerItem, new { @class = "img-responsive img-centered" })
+                    @Html.Sitecore().EndField()
+                </div>
+            }
+        </div>
+    </div>
+</aside>

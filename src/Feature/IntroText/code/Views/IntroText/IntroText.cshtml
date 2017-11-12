@@ -1,0 +1,25 @@
+﻿@using Sitecore.Feature.IntroText.Templates;
+@using Sitecore.Basis.Extensions.Extensions;
+@model Sitecore.Mvc.Presentation.Rendering
+@{
+    var wrapper = new __IntroText(Model.Item);
+    var imageUrl = wrapper.BackgroundImage.ImageUrl();
+}
+<div class="container">
+    <div class="intro-text">
+        <div class="intro-lead-in">@Html.Sitecore().Field(__IntroText.FieldIds.Lead.ToString(), Model.Item)</div>
+        <div class="intro-heading">@Html.Sitecore().Field(__IntroText.FieldIds.Heading.ToString(), Model.Item)</div>
+        @Html.Sitecore().BeginField(__IntroText.FieldIds.ButtonLink.ToString(), Model.Item, new { haschildren = true, @class = "page-scroll btn btn-xl" })
+        @Html.Sitecore().Field(__IntroText.FieldIds.ButtonText.ToString(), Model.Item)
+        @Html.Sitecore().EndField()
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(imageUrl))
+{
+    <style>
+        header {
+            background-image: url('@imageUrl');
+        }
+    </style>
+}

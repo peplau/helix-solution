@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {C5998C9C-3D82-4AC0-87B8-BA25B0075E87}
+database: master
+path: /sitecore/content/Helix/Settings/Sources/linkmenuclass
+parent: {D9E475DE-6E16-43EC-8695-DE9760485027}
+name: linkmenuclass
+master: {00000000-0000-0000-0000-000000000000}
+template: {CABDDF2E-A47D-4B13-9A01-33218C777F8F}
+templatekey: Source Configuration
+created: 20170501T184527Z
+
+----version----
+language: en
+version: 1
+revision: 2f530743-3612-4187-b140-a4d9e0a3852a
+
+----field----
+field: {7CEC52E0-D460-4A39-AB8F-4C227659F9CE}
+name: Source
+key: source
+content-length: 74
+
+/sitecore/content/Helix/Global/Dictionary/Navigation/Link Menu/CSS Classes
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170501T184528Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2f530743-3612-4187-b140-a4d9e0a3852a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170528T213543Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

@@ -1,0 +1,43 @@
+﻿@using Sitecore.Feature.Navigation.Templates;
+@model Sitecore.Feature.Navigation.Models.NavigationItems
+@{
+    if (Model == null || Model.Items == null)
+    {
+        return;
+    }
+}
+<div class="col-md-4">
+    <ul class="list-inline @Model.CssClass">
+        @foreach (var item in Model.Items)
+        {
+            var wrapper = new __LinkMenuItem(item.Item);
+            <li>
+                @*This is to enable edition in Experience Editor*@
+                @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                {
+                    <b>Icon: </b>
+                    @Html.Sitecore().Field(__LinkMenuItem.FieldIds.IconCss.ToString(), item.Item)
+                    <br />
+                }
+
+                @Html.Sitecore().BeginField(__Link.FieldIds.Link.ToString(), item.Item, new { haschildren = true, title = item.Item.Fields[__Navigable.FieldIds.NavigationTitle].Value })
+                @if (!string.IsNullOrEmpty(wrapper.IconCss))
+                {
+                    <i class="fa fa-@wrapper.IconCss"></i>
+                }
+                else
+                {
+                    @Html.Sitecore().Field(__Navigable.FieldIds.NavigationTitle.ToString(), item.Item)
+                }
+                @Html.Sitecore().EndField()
+
+                @*This is to enable edition in Experience Editor*@
+                @if (Sitecore.Context.PageMode.IsExperienceEditor && !string.IsNullOrEmpty(wrapper.IconCss))
+                {
+                    <b>Title: </b>
+                    @Html.Sitecore().Field(__Navigable.FieldIds.NavigationTitle.ToString(), item.Item)<br />
+                }
+            </li>
+        }
+    </ul>
+</div>

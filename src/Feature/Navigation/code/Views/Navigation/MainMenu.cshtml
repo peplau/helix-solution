@@ -1,0 +1,24 @@
+﻿@using Sitecore.Feature.Navigation.Templates;
+@model Sitecore.Feature.Navigation.Models.NavigationItems
+@{
+    if (Model == null || Model.Items == null)
+    {
+        return;
+    }
+}
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+            <a href="#page-top"></a>
+        </li>
+        @foreach (var item in Model.Items)
+        {
+            <li>
+                @Html.Sitecore().BeginField(__Link.FieldIds.Link.ToString(), item.Item, new { haschildren = true, @class = "page-scroll" })
+                    @Html.Sitecore().Field(__Navigable.FieldIds.NavigationTitle.ToString(), item.Item)
+                @Html.Sitecore().EndField()
+            </li>
+        }
+    </ul>
+</div>

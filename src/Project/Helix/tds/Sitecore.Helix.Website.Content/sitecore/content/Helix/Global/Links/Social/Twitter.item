@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {58EA49C2-B000-484E-8775-664AB7B6539A}
+database: master
+path: /sitecore/content/Helix/Global/Links/Social/Twitter
+parent: {C17C5C4A-EB12-4D3C-92BD-37C2769A7D1E}
+name: Twitter
+master: {00000000-0000-0000-0000-000000000000}
+template: {A70328C2-7175-46D9-B381-D78CDD246906}
+templatekey: Link Menu Item
+created: 20170429T192735Z
+
+----version----
+language: en
+version: 1
+revision: cc1bea17-24ab-496c-ac11-16194949fbb3
+
+----field----
+field: {4C0A91DF-2B4B-4A02-8231-AE8FF28A5E46}
+name: Icon CSS
+key: icon css
+content-length: 7
+
+twitter
+----field----
+field: {27C1F6E7-5FA3-49BF-B49C-CFB7E1CD2FB2}
+name: Link
+key: link
+content-length: 91
+
+<link linktype="external" url="https://twitter.com/TechGuilds" anchor="" target="_blank" />
+----field----
+field: {F4A40058-8ECB-4D9D-A4ED-9EA2D9D68A04}
+name: Navigation Title
+key: navigation title
+content-length: 7
+
+Twitter
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170429T192735Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cc1bea17-24ab-496c-ac11-16194949fbb3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170429T193323Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

@@ -1,0 +1,109 @@
+----item----
+version: 1
+id: {87EBAA2B-B229-4E65-9452-8374726376DB}
+database: master
+path: /sitecore/content/Helix/Global/Boxes with Modals/Dreams
+parent: {07BFD0C3-7F9E-415C-9040-9B77E58461C1}
+name: Dreams
+master: {00000000-0000-0000-0000-000000000000}
+template: {864C21DB-D9C4-41E5-8606-9DA338B600EF}
+templatekey: Box with Modal
+created: 20170506T184642Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+700
+----version----
+language: en
+version: 1
+revision: b5f538e8-33ab-46e7-9079-fe9a3c8ecf90
+
+----field----
+field: {F35D2956-0D4C-42F8-B50A-2AA1E81D7ACC}
+name: Box title
+key: box title
+content-length: 6
+
+Dreams
+----field----
+field: {EC102602-45EF-478C-BEE9-44F47E6D5DB7}
+name: Box subtitle
+key: box subtitle
+content-length: 14
+
+Website Design
+----field----
+field: {FC108CF0-6828-4D8B-8955-1F6936F19E3E}
+name: Box image
+key: box image
+content-length: 58
+
+<image mediaid="{3CA3BA8C-9EB2-4C51-9DDD-8558E371199D}" />
+----field----
+field: {0ABB10F3-7E15-4803-A7DE-21E184EC555C}
+name: Modal title
+key: modal title
+content-length: 6
+
+Dreams
+----field----
+field: {EAA44868-4E8F-4D31-B109-61F0CF18C843}
+name: Modal intro text
+key: modal intro text
+content-length: 39
+
+Lorem ipsum dolor sit amet consectetur.
+----field----
+field: {FDE400AF-E23B-4249-B46B-65F166CE50C0}
+name: Modal image
+key: modal image
+content-length: 58
+
+<image mediaid="{7CC5A93F-9279-4AE2-9072-7DA258441A59}" />
+----field----
+field: {73F1A95D-79B3-4B5C-AAB5-84EC7E804C59}
+name: Modal content
+key: modal content
+content-length: 458
+
+<p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It&rsquo;s a beautiful template that&rsquo;s designed with the Bootstrap framework in mind.</p>
+<p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170506T184642Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b5f538e8-33ab-46e7-9079-fe9a3c8ecf90
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170506T190730Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

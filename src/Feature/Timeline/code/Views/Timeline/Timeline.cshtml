@@ -1,0 +1,26 @@
+﻿@using Sitecore.Feature.Timeline.Templates;
+@model Sitecore.Feature.Timeline.Models.Timeline
+@{    
+}
+<ul class="timeline">
+    @foreach (__TimelineEntry entry in Model.Entries)
+    {
+        <li class="@entry.CSSClass">
+            <div class="timeline-image">
+                @Html.Sitecore().Field(__TimelineEntry.FieldIds.Image.ToString(), entry.InnerItem, new { @class = "img-circle img-responsive" })
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>@Html.Sitecore().Field(__TimelineEntry.FieldIds.Heading.ToString(), entry.InnerItem)</h4>
+                    <h4 class="subheading">@Html.Sitecore().Field(__TimelineEntry.FieldIds.Subheading.ToString(), entry.InnerItem)</h4>
+                </div>
+                <div class="timeline-body">
+                    <p class="text-muted">@Html.Sitecore().Field(__TimelineEntry.FieldIds.Body.ToString(), entry.InnerItem)</p>
+                </div>
+
+                @Html.Sitecore().Field(__TimelineEntry.FieldIds.CSSClass.ToString(), entry.InnerItem)
+
+            </div>
+        </li>
+    }
+</ul>

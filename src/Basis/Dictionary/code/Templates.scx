@@ -1,0 +1,12 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="37" designerY="126">
+    <template templatename="Dictionary Folder" templateid="{A811B666-F7AD-4B24-8833-DACEE873106D}" templateuri="/techguilds.dev.local/master/{A811B666-F7AD-4B24-8833-DACEE873106D}" classname="DictionaryFolder" />
+  </shape>
+  <shape designerX="39" designerY="43">
+    <template templatename="Dictionary Entry" templateid="{09154788-3033-47D9-B5AB-5718B5F1372F}" templateuri="/techguilds.dev.local/master/{09154788-3033-47D9-B5AB-5718B5F1372F}" classname="DictionaryEntry">
+      <section id="{6D242842-B55D-4710-ADF6-282359E45602}" name="Dictionary">
+        <field id="{41988B93-8E49-4A33-9337-2EFA35FC61D5}" name="Phrase" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Phrase" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>

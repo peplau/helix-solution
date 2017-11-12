@@ -1,0 +1,14 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="18" designerY="19">
+    <template templatename="_TeamMember" templateid="{3FD97373-94E2-4C38-A7DB-7FF3141492DD}" templateuri="/helix.dev.local/master/{3FD97373-94E2-4C38-A7DB-7FF3141492DD}" classname="__TeamMember">
+      <section id="{3AAE8F3E-0F5E-42CA-A402-9CEB12D7E551}" name="Content">
+        <field id="{95BD8AF6-EE12-4602-A056-9BC9497857C9}" name="Name" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Name" />
+        <field id="{B2CF3BF3-0DE7-495B-99FF-1319343C8063}" name="Role" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Role" />
+        <field id="{47C1237C-36F5-4BC9-B98B-4FE424F307C2}" name="Picture" shared="0" source="" type="Image" unversioned="0" propertyname="Picture" />
+        <field id="{631AF1FC-3E3A-445B-8766-A00657C55300}" name="Twitter" shared="0" source="" type="General Link" unversioned="0" propertyname="Twitter" />
+        <field id="{2F1EC3AE-FDA9-483B-8AE8-8B71FEDB1CB9}" name="Facebook" shared="0" source="" type="General Link" unversioned="0" propertyname="Facebook" />
+        <field id="{A9100FC4-CE6F-4D7C-B66B-BEA47115F662}" name="LinkedIn" shared="0" source="" type="General Link" unversioned="0" propertyname="LinkedIn" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>

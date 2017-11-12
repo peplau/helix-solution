@@ -1,0 +1,13 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="11" designerY="17">
+    <template templatename="_IntroText" templateid="{0D57E125-3F49-49A7-97FC-22F6E4CD51DF}" templateuri="/techguilds.dev.local/master/{0D57E125-3F49-49A7-97FC-22F6E4CD51DF}" classname="__IntroText">
+      <section id="{791D37C2-9311-45C0-B452-DC248A09A831}" name="Content">
+        <field id="{A4093708-F95D-40D4-89CF-289A3823C784}" name="Lead" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Lead" />
+        <field id="{AD0914C6-B6A3-480B-9062-6639D78C9C68}" name="Heading" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Heading" />
+        <field id="{CF30E1B5-8BCF-44B0-9B35-CFE21A11811C}" name="Button text" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="ButtonText" />
+        <field id="{7591D6A7-B239-4A9B-8A7B-AE6FCF1159B1}" name="Button link" shared="0" source="" type="General Link" unversioned="0" propertyname="ButtonLink" />
+        <field id="{C68C7128-FF53-46FD-BB90-0470D08E48E6}" name="Background image" shared="0" source="" type="Image" unversioned="0" propertyname="BackgroundImage" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>

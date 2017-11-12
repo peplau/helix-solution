@@ -1,0 +1,64 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="46" designerY="37">
+    <template templatename="Datasource Configuration" templateid="{C14AE427-3F58-40DE-922E-39E143A51434}" templateuri="/techguilds.dev.local/master/{C14AE427-3F58-40DE-922E-39E143A51434}" classname="DatasourceConfiguration">
+      <section id="{E9F965BE-1EBE-4AE7-9417-B6B320B22691}" name="Data">
+        <field id="{41125DE7-8468-48C7-8241-704127F8FCE1}" name="Datasource Location" shared="0" source="" type="Datasource" unversioned="0" propertyname="DatasourceLocation" />
+        <field id="{86127D9A-95ED-479E-9037-C3BF014A806B}" name="Datasource Template" shared="0" source="/sitecore/templates" type="Internal Link" unversioned="0" propertyname="DatasourceTemplate" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="49" designerY="147">
+    <template templatename="Site Settings Root" templateid="{3F80C671-2061-48EE-9951-80B46AC42714}" templateuri="/techguilds.dev.local/master/{3F80C671-2061-48EE-9951-80B46AC42714}" classname="SiteSettingsRoot" />
+  </shape>
+  <shape designerX="286" designerY="144">
+    <template templatename="Datasource Settings Folder" templateid="{C0F7A8C5-8BBF-4416-AC3F-C221691EDDB4}" templateuri="/techguilds.dev.local/master/{C0F7A8C5-8BBF-4416-AC3F-C221691EDDB4}" classname="DatasourceSettingsFolder" />
+  </shape>
+  <shape designerX="45" designerY="198">
+    <template templatename="_SiteSettings" templateid="{8764779E-2DEE-461D-BBD0-A7B2DE606B72}" templateuri="/techguilds.dev.local/master/{8764779E-2DEE-461D-BBD0-A7B2DE606B72}" classname="__SiteSettings" />
+  </shape>
+  <shape designerX="280" designerY="199">
+    <template templatename="_Site" templateid="{42F16E0A-2C86-4679-AFF9-CC703AB0B16D}" templateuri="/techguilds.dev.local/master/{42F16E0A-2C86-4679-AFF9-CC703AB0B16D}" classname="__Site" />
+  </shape>
+  <shape designerX="85" designerY="387">
+    <template templatename="Source Configuration" templateid="{CABDDF2E-A47D-4B13-9A01-33218C777F8F}" templateuri="/techguilds.dev.local/master/{CABDDF2E-A47D-4B13-9A01-33218C777F8F}" classname="SourceConfiguration">
+      <section id="{B26EBD56-6E56-4D0D-90C0-ECDC3121C053}" name="Data">
+        <field id="{7CEC52E0-D460-4A39-AB8F-4C227659F9CE}" name="Source" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Source" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="86" designerY="462">
+    <template templatename="Source Settings Folder" templateid="{5045928C-0E96-4AF1-B172-5E6015447A19}" templateuri="/techguilds.dev.local/master/{5045928C-0E96-4AF1-B172-5E6015447A19}" classname="SourceSettingsFolder" />
+  </shape>
+  <shape designerX="542" designerY="26">
+    <template templatename="Rendering Options" templateid="{D1592226-3898-4CE2-B190-090FD5F84A4C}" templateuri="/techguilds.dev.local/master/{D1592226-3898-4CE2-B190-090FD5F84A4C}" classname="RenderingOptions">
+      <section id="{A1715151-F48E-4B22-BE3A-BABF4E18584F}" name="Editor Options">
+        <field id="{308E88F5-CD6E-4F8F-BAFE-95A47DEDEFDC}" name="Editable" shared="1" source="" type="Checkbox" unversioned="0" propertyname="Editable" />
+        <field id="{B5B27AF1-25EF-405C-87CE-369B3A004016}" name="Datasource Location" shared="1" source="" type="Datasource" unversioned="1" propertyname="DatasourceLocation" />
+        <field id="{1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}" name="Datasource Template" shared="1" source="/sitecore/templates" type="Internal Link" unversioned="0" propertyname="DatasourceTemplate" />
+        <field id="{E441ABE7-2CA3-4640-AE26-3789967925D7}" name="Compatible Renderings" shared="1" source="DataSource=/sitecore/Layout&amp;ExcludeTemplatesForDisplay=Layout,Xml layout,Device&amp;ExcludeTemplatesForSelection=Folder,Main section,Node,Rendering folder&amp;ExcludeItemsForDisplay={1CE3B36C-9B0C-4EB5-A996-BFCB4EAA5287},{E18F4BC6-46A2-4842-898B-B6613733F06F},{75CC5CE4-8979-4008-9D3C-806477D57619},{39522E9A-9B6E-4CB4-850C-23D0D3ADFD0C}" type="Treelist" unversioned="0" propertyname="CompatibleRenderings" />
+        <field id="{A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}" name="Page Editor Buttons" shared="1" source="DataSource=/sitecore/content/Applications/WebEdit/Custom Experience Buttons&amp;DatabaseName=core" type="Treelist" unversioned="0" propertyname="PageEditorButtons" />
+        <field id="{F172B787-7B88-4BD5-AE4D-6308E102EF11}" name="Enable Datasource Query" shared="1" source="" type="Checkbox" unversioned="0" propertyname="EnableDatasourceQuery" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="124" designerY="529">
+    <template templatename="Standard Rendering Parameters" templateid="{8CA06D6A-B353-44E8-BC31-B528C7306971}" templateuri="/techguilds.dev.local/master/{8CA06D6A-B353-44E8-BC31-B528C7306971}" classname="StandardRenderingParameters">
+      <section id="{426DE32D-EEDB-4938-A0D7-12D0D2107A2C}" name="General">
+        <field id="{E42027F4-766D-45A7-8CF4-29E5C94326F7}" name="Placeholder" shared="1" source="" type="Single-Line Text" unversioned="0" propertyname="Placeholder" />
+        <field id="{0793DCFF-0EE7-48AD-B9D4-EF1DD24EB59B}" name="Data Source" shared="1" source="" type="Query Datasource" unversioned="0" propertyname="DataSource" />
+      </section>
+      <section id="{1CF87A5E-50A8-497E-8443-4AB81EE8A205}" name="Parameters">
+        <field id="{485E33D4-79F1-428F-8258-2CB29BB7CC6B}" name="Additional Parameters" shared="1" source="" type="Name Value List" unversioned="0" propertyname="AdditionalParameters" />
+      </section>
+      <section id="{78D21349-8E72-4825-91DB-1B8C3A9A1042}" name="Caching">
+        <field id="{3094D236-5985-4C4F-AE6A-E30740885532}" name="Caching" shared="1" source="type=Sitecore.Shell.Applications.Layouts.DeviceEditor.CachingField,Sitecore.Client" type="Custom" unversioned="0" propertyname="Caching" />
+      </section>
+      <section id="{E877764C-456E-4288-887B-A8913CBCD99A}" name="Personalization">
+        <field id="{C502BDEB-F5DA-4AD0-8095-D7CC1D0E1EEC}" name="Personalization" shared="1" source="type=Sitecore.Shell.Applications.Layouts.DeviceEditor.ExperienceTunerField,Sitecore.Client" type="Custom" unversioned="0" propertyname="Personalization" />
+      </section>
+      <section id="{F72972F5-AB54-4552-AC46-CB493308D08A}" name="Test Lab">
+        <field id="{0FA4635B-8BF4-46DF-994D-621B76F0A7AD}" name="Tests" shared="1" source="{BA1B87AC-0853-45F0-AE13-41F969540134}" type="Internal Link" unversioned="0" propertyname="Tests" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>

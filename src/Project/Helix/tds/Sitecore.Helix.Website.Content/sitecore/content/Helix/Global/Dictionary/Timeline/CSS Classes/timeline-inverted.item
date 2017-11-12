@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {B4447CCE-D432-4AF6-9DB8-A5A20F1CCEBB}
+database: master
+path: /sitecore/content/Helix/Global/Dictionary/Timeline/CSS Classes/timeline-inverted
+parent: {DC1E5532-F2DE-448A-A786-E964E92BC107}
+name: timeline-inverted
+master: {00000000-0000-0000-0000-000000000000}
+template: {09154788-3033-47D9-B5AB-5718B5F1372F}
+templatekey: Dictionary Entry
+created: 20170506T194044Z
+
+----version----
+language: en
+version: 1
+revision: bd66f6a5-037a-4959-ae9a-cbf73d0a4261
+
+----field----
+field: {41988B93-8E49-4A33-9337-2EFA35FC61D5}
+name: Phrase
+key: phrase
+content-length: 17
+
+timeline-inverted
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170506T194044Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bd66f6a5-037a-4959-ae9a-cbf73d0a4261
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170506T194044Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

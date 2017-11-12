@@ -1,0 +1,44 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="32" designerY="28">
+    <template templatename="_Link" templateid="{14BCE2C8-403A-4AF2-96A6-3E8B61BFD472}" templateuri="/techguilds.dev.local/master/{14BCE2C8-403A-4AF2-96A6-3E8B61BFD472}" classname="__Link">
+      <section id="{AA70A548-FCCC-40C1-B494-5C42BF15A881}" name="Navigation">
+        <field id="{27C1F6E7-5FA3-49BF-B49C-CFB7E1CD2FB2}" name="Link" shared="0" source="" type="General Link" unversioned="0" propertyname="Link" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="258" designerY="30">
+    <template templatename="_Navigable" templateid="{0D26B856-11D4-4042-B144-89264DCE054A}" templateuri="/techguilds.dev.local/master/{0D26B856-11D4-4042-B144-89264DCE054A}" classname="__Navigable">
+      <section id="{65A3D381-18F6-410C-8FA2-E4784161D11E}" name="Navigation">
+        <field id="{F4A40058-8ECB-4D9D-A4ED-9EA2D9D68A04}" name="Navigation Title" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="NavigationTitle" />
+        <field id="{060CE5B9-AE98-451E-9CDF-38A85A75336F}" name="Show in Navigation" shared="1" source="" type="Checkbox" unversioned="0" propertyname="ShowInNavigation" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="30" designerY="107">
+    <template templatename="_Link Menu Item" templateid="{E3C3A8C0-746E-417D-B715-F4542E8C61B2}" templateuri="/techguilds.dev.local/master/{E3C3A8C0-746E-417D-B715-F4542E8C61B2}" classname="__LinkMenuItem">
+      <section id="{2CFF8DEB-6BB3-4AAA-BE98-AF7A231CC939}" name="Navigation">
+        <field id="{4C0A91DF-2B4B-4A02-8231-AE8FF28A5E46}" name="Icon CSS" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="IconCss" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="260" designerY="123">
+    <template templatename="_Navigation Root" templateid="{CD149544-2409-471F-ADDE-83B14E1E7C79}" templateuri="/techguilds.dev.local/master/{CD149544-2409-471F-ADDE-83B14E1E7C79}" classname="__NavigationRoot" />
+  </shape>
+  <shape designerX="31" designerY="329">
+    <template templatename="Source Configuration" templateid="{CABDDF2E-A47D-4B13-9A01-33218C777F8F}" templateuri="/techguilds.dev.local/master/{CABDDF2E-A47D-4B13-9A01-33218C777F8F}" classname="SourceConfiguration">
+      <section id="{B26EBD56-6E56-4D0D-90C0-ECDC3121C053}" name="Data">
+        <field id="{7CEC52E0-D460-4A39-AB8F-4C227659F9CE}" name="Source" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Source" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="30" designerY="403">
+    <template templatename="Source Settings Folder" templateid="{5045928C-0E96-4AF1-B172-5E6015447A19}" templateuri="/techguilds.dev.local/master/{5045928C-0E96-4AF1-B172-5E6015447A19}" classname="SourceSettingsFolder" />
+  </shape>
+  <shape designerX="28" designerY="188">
+    <template templatename="ParametersTemplate_CssClass" templateid="{DD19DAA7-E386-42B6-A621-DC054E438AB9}" templateuri="/techguilds.dev.local/master/{DD19DAA7-E386-42B6-A621-DC054E438AB9}" classname="ParametersTemplate_CssClass">
+      <section id="{F2E75ED0-4DF3-4585-AB0C-68E543F267F0}" name="Parameters">
+        <field id="{C7184AB0-5A12-40C1-86D2-8A60FB46826A}" name="CSSClass" shared="0" source="site:linkmenuclass" type="Droplist" unversioned="0" propertyname="CSSClass" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>

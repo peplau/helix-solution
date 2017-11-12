@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {08449692-95F2-43FE-9B53-71362FEABE5E}
+database: master
+path: /sitecore/content/Helix/Global/Links/Main Navigation/Services
+parent: {C961BD54-206C-46FC-B337-AF7D49ACEA81}
+name: Services
+master: {00000000-0000-0000-0000-000000000000}
+template: {A70328C2-7175-46D9-B381-D78CDD246906}
+templatekey: Link Menu Item
+created: 20170430T220846Z
+
+----version----
+language: en
+version: 1
+revision: 6a89964a-87d8-4e58-b69c-f33e1a9f80c0
+
+----field----
+field: {27C1F6E7-5FA3-49BF-B49C-CFB7E1CD2FB2}
+name: Link
+key: link
+content-length: 75
+
+<link linktype="anchor" text="Services" url="services" anchor="services" />
+----field----
+field: {F4A40058-8ECB-4D9D-A4ED-9EA2D9D68A04}
+name: Navigation Title
+key: navigation title
+content-length: 8
+
+Services
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170430T220846Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6a89964a-87d8-4e58-b69c-f33e1a9f80c0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170506T183035Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

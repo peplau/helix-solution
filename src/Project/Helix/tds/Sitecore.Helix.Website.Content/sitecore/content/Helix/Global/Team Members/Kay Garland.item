@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {ADCC010D-A03E-4DA6-B076-7C81F5E93842}
+database: master
+path: /sitecore/content/Helix/Global/Team Members/Kay Garland
+parent: {ED1FBE02-B524-4CAB-8FEE-D0E83BDBAF1E}
+name: Kay Garland
+master: {00000000-0000-0000-0000-000000000000}
+template: {84A469B0-EACC-4896-8D03-B922E60A7260}
+templatekey: Team Member
+created: 20170528T211448Z
+
+----version----
+language: en
+version: 1
+revision: 6904ca9a-0e7e-465f-a6ce-cb5d3613326c
+
+----field----
+field: {95BD8AF6-EE12-4602-A056-9BC9497857C9}
+name: Name
+key: name
+content-length: 11
+
+Kay Garland
+----field----
+field: {B2CF3BF3-0DE7-495B-99FF-1319343C8063}
+name: Role
+key: role
+content-length: 13
+
+Lead Designer
+----field----
+field: {47C1237C-36F5-4BC9-B98B-4FE424F307C2}
+name: Picture
+key: picture
+content-length: 58
+
+<image mediaid="{20BE0FB9-9471-48B5-8F5C-48161471681A}" />
+----field----
+field: {631AF1FC-3E3A-445B-8766-A00657C55300}
+name: Twitter
+key: twitter
+content-length: 92
+
+<link text=" " linktype="external" url="http://www.twitter.com" anchor="" target="_blank" />
+----field----
+field: {2F1EC3AE-FDA9-483B-8AE8-8B71FEDB1CB9}
+name: Facebook
+key: facebook
+content-length: 92
+
+<link text=" " linktype="external" url="http://www.twitter.com" anchor="" target="_blank" />
+----field----
+field: {A9100FC4-CE6F-4D7C-B66B-BEA47115F662}
+name: LinkedIn
+key: linkedin
+content-length: 92
+
+<link text=" " linktype="external" url="http://www.twitter.com" anchor="" target="_blank" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170528T211448Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6904ca9a-0e7e-465f-a6ce-cb5d3613326c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170528T220452Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

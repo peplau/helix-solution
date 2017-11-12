@@ -1,0 +1,11 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="15" designerY="18">
+    <template templatename="_Service" templateid="{AFC3B61C-5F89-40C7-B9C5-2213C6DE1EE6}" templateuri="/techguilds.dev.local/master/{AFC3B61C-5F89-40C7-B9C5-2213C6DE1EE6}" classname="__Service">
+      <section id="{9702CFA9-0D45-408B-BDAE-B8FDCC6F40D2}" name="Service">
+        <field id="{F992F229-88DA-42E7-B5DC-5DC6F1413C93}" name="Heading" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Heading" />
+        <field id="{E40855CB-B25E-42BB-A804-3491583C5130}" name="Text" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Text" />
+        <field id="{A73C362A-D9E7-4027-BA03-E3167A5CA888}" name="Icon CSS Class" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="IconCSSClass" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>

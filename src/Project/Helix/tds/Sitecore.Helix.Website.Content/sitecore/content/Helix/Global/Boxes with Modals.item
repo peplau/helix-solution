@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {07BFD0C3-7F9E-415C-9040-9B77E58461C1}
+database: master
+path: /sitecore/content/Helix/Global/Boxes with Modals
+parent: {54C3ABE8-3E1B-4B9B-B35B-EE8A93EC2CB8}
+name: Boxes with Modals
+master: {00000000-0000-0000-0000-000000000000}
+template: {852DB803-3B1A-4D0E-87F3-52F7B4A925E1}
+templatekey: Boxes with Modals
+created: 20170506T154444Z
+
+----version----
+language: en
+version: 1
+revision: 00c52c58-4e6e-4d5e-8572-0049166cc313
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170506T154444Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+00c52c58-4e6e-4d5e-8572-0049166cc313
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170506T154450Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

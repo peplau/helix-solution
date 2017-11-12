@@ -1,0 +1,10 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="35" designerY="24">
+    <template templatename="_SiteConfiguration" templateid="{DFBEB1D4-441B-44A8-8E7E-3284375A55DE}" templateuri="/techguilds.dev.local/master/{DFBEB1D4-441B-44A8-8E7E-3284375A55DE}" classname="__SiteConfiguration">
+      <section id="{B198DBC1-D5AB-4950-BA56-E5962312A247}" name="Site">
+        <field id="{9B944550-069D-4544-8C42-111C302BF69D}" name="Show in Menu" shared="0" source="" type="Checkbox" unversioned="0" propertyname="ShowInMenu" />
+        <field id="{FEBE343D-0437-46B2-A4B9-8D911CFD0F5A}" name="Title" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Title" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>

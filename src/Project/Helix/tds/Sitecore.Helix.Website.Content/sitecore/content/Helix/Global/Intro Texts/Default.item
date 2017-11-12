@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {9DFF7CA2-153F-455B-B802-814467213DA8}
+database: master
+path: /sitecore/content/Helix/Global/Intro Texts/Default
+parent: {4957AF5E-53D3-47B8-8BC0-4FEEB787A056}
+name: Default
+master: {00000000-0000-0000-0000-000000000000}
+template: {FE8C463D-17F2-4F71-AA9C-06CB988E3183}
+templatekey: Intro Text
+created: 20170430T233332Z
+
+----version----
+language: en
+version: 1
+revision: 534d9837-83ee-4e14-ada9-2208e6c279ee
+
+----field----
+field: {A4093708-F95D-40D4-89CF-289A3823C784}
+name: Lead
+key: lead
+content-length: 22
+
+Welcome To Our Studio!
+----field----
+field: {AD0914C6-B6A3-480B-9062-6639D78C9C68}
+name: Heading
+key: heading
+content-length: 21
+
+It's Nice To Meet You
+----field----
+field: {CF30E1B5-8BCF-44B0-9B35-CFE21A11811C}
+name: Button text
+key: button text
+content-length: 12
+
+Tell Me More
+----field----
+field: {7591D6A7-B239-4A9B-8A7B-AE6FCF1159B1}
+name: Button link
+key: button link
+content-length: 98
+
+<link text="Tell Me More" linktype="anchor" url="services" anchor="#services" title="" class="" />
+----field----
+field: {C68C7128-FF53-46FD-BB90-0470D08E48E6}
+name: Background image
+key: background image
+content-length: 58
+
+<image mediaid="{9A09DEF0-36D1-469F-8CA6-2081D910AAC0}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170430T233332Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+534d9837-83ee-4e14-ada9-2208e6c279ee
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170502T010038Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

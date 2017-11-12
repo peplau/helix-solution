@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {F692E639-C734-47DD-852B-1C5850B6EB8C}
+database: master
+path: /sitecore/content/Helix/Home
+parent: {630FB359-2391-49B1-AE81-292B8399DE63}
+name: Home
+master: {00000000-0000-0000-0000-000000000000}
+template: {04D43F9C-F06C-4E98-B39B-0F9E1EF5D99A}
+templatekey: Home
+created: 20170423T230406Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5809
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{50536E18-7188-43A9-89EB-69E70FD7C37E}"><r ds="" id="{323BF218-0DAC-4441-8FB5-D9518827D41E}" par="" ph="navbar-header" uid="{8DE9FFF5-B422-47B1-9663-30D54640B7D9}" /><r ds="" id="{EE2DCDE1-715A-4866-A1C3-0ECA0314C8D7}" par="" ph="navbar-header" uid="{795DADA3-8123-4061-977C-701C817C1AE1}" /><r ds="{C961BD54-206C-46FC-B337-AF7D49ACEA81}" id="{47A2C8BD-C87A-4ADD-B558-04E345902291}" par="" ph="navbar" uid="{EC137119-3B8A-465D-8140-ACAFDA2F6AC0}" /><r ds="{9DFF7CA2-153F-455B-B802-814467213DA8}" id="{1BFC9127-55EF-4C10-91A2-E73990CC6D62}" par="" ph="header" uid="{7AFA258F-E1A1-46AC-A9AF-EF465715C96A}" /><r ds="" id="{C6BDCEEA-6BCC-4E9E-A282-DB4FE4CAEE6A}" par="Identifier=services&amp;Heading=Services&amp;Subheading=Lorem%20ipsum%20dolor%20sit%20amet%20consectetur.&amp;CSSClass&amp;PlaceholderClass=text-center" ph="page-layout" uid="{E29DE6F3-E058-4E7F-AA8B-2263553FEEB2}" /><r ds="{1C37F02E-98D8-4A9B-8C23-5C33B2747EC3}" id="{CDBFF88A-B361-4273-A8FC-906A691A4021}" par="" ph="/page-layout/section_e29de6f3-e058-4e7f-aa8b-2263553feeb2" uid="{149D837D-278A-4B32-9CFF-E06630BF8EC4}" /><r ds="{0DE48F6C-1008-4AFE-B233-B116F0E77406}" id="{CDBFF88A-B361-4273-A8FC-906A691A4021}" par="" ph="/page-layout/section_e29de6f3-e058-4e7f-aa8b-2263553feeb2" uid="{F7D5A853-559C-42AB-89BD-EBACB735A4A6}" /><r ds="{8D33B63D-FC53-483A-8935-D2A6D5B4B969}" id="{CDBFF88A-B361-4273-A8FC-906A691A4021}" par="" ph="/page-layout/section_e29de6f3-e058-4e7f-aa8b-2263553feeb2" uid="{5A04631F-793E-4D76-A005-531BD56E9C45}" /><r ds="" id="{C6BDCEEA-6BCC-4E9E-A282-DB4FE4CAEE6A}" par="Identifier=portfolio&amp;Heading=Portfolio&amp;Subheading=Lorem%20ipsum%20dolor%20sit%20amet%20consectetur.&amp;CSSClass=bg-light-gray&amp;PlaceholderClass" ph="page-layout" uid="{6534B04C-9D26-4C1F-9459-F892549ECA01}" /><r ds="{3F84D426-4540-4F04-BC2D-B78BACD51D1B}" id="{2D8E4CC6-A8E8-4FDB-B8E5-DABE32502F5C}" par="" ph="/page-layout/section_6534b04c-9d26-4c1f-9459-f892549eca01" uid="{D9223F1A-04D2-4323-B828-9253BAE4AB85}" /><r ds="{C4BA4D7B-9F54-437A-AD5B-CA32B4E263A1}" id="{2D8E4CC6-A8E8-4FDB-B8E5-DABE32502F5C}" par="" ph="/page-layout/section_6534b04c-9d26-4c1f-9459-f892549eca01" uid="{D3A52A55-1645-4BE1-8B16-28167E014CB6}" /><r ds="{578C6D2F-A3E1-4372-A1CF-AE1C6E12711E}" id="{2D8E4CC6-A8E8-4FDB-B8E5-DABE32502F5C}" par="" ph="/page-layout/section_6534b04c-9d26-4c1f-9459-f892549eca01" uid="{24F9132C-5AE4-4B09-8DB1-AE36E88D13E5}" /><r ds="{011B2DD5-B10A-495B-BAD7-869586958AB4}" id="{2D8E4CC6-A8E8-4FDB-B8E5-DABE32502F5C}" par="" ph="/page-layout/section_6534b04c-9d26-4c1f-9459-f892549eca01" uid="{60ECCF90-4106-49C3-B98E-139C14AF8047}" /><r ds="{54D01A47-3AED-4E90-A205-711E89BC94CC}" id="{2D8E4CC6-A8E8-4FDB-B8E5-DABE32502F5C}" par="" ph="/page-layout/section_6534b04c-9d26-4c1f-9459-f892549eca01" uid="{265F2605-0CD6-47C0-988F-E1070FCCE086}" /><r ds="{87EBAA2B-B229-4E65-9452-8374726376DB}" id="{2D8E4CC6-A8E8-4FDB-B8E5-DABE32502F5C}" par="" ph="/page-layout/section_6534b04c-9d26-4c1f-9459-f892549eca01" uid="{CF315257-F51C-48E8-A47B-D516A6557E6C}" /><r ds="" id="{C6BDCEEA-6BCC-4E9E-A282-DB4FE4CAEE6A}" par="Identifier=about&amp;Heading=About&amp;Subheading=Lorem%20ipsum%20dolor%20sit%20amet%20consectetur.&amp;CSSClass&amp;PlaceholderClass" ph="page-layout" uid="{6972B871-BBFC-4680-A87F-C7AD6D7D7424}" /><r id="{3FBF0B8F-D22D-4577-871D-C1DA42542116}" ph="/page-layout/section_6972b871-bbfc-4680-a87f-c7ad6d7d7424" uid="{78F127F9-F1F5-4171-9D70-F0D51478200C}" /><r ds="" id="{C6BDCEEA-6BCC-4E9E-A282-DB4FE4CAEE6A}" par="Identifier=team&amp;Heading=Our%20Amazing%20Team&amp;Subheading=Lorem%20ipsum%20dolor%20sit%20amet%20consectetur.&amp;CSSClass=bg-light-gray&amp;PlaceholderClass" ph="page-layout" uid="{DF7C3D0C-495E-4C93-BF2A-4DD625CCD475}" /><r ds="{F4FD8688-29CB-46C2-AA5B-6D4D9828AD78}" id="{3BDAFD03-687D-4CE5-9CF5-8226FAF640FB}" par="" ph="page-layout" uid="{FFDF560B-C2F1-4DC7-8FDB-B712EA059E44}" /><r ds="" id="{C6BDCEEA-6BCC-4E9E-A282-DB4FE4CAEE6A}" par="Identifier=contact&amp;Heading=Contact%20Us&amp;Subheading=Lorem%20ipsum%20dolor%20sit%20amet%20consectetur.&amp;CSSClass&amp;PlaceholderClass&amp;Footer Text" ph="page-layout" uid="{348A312C-B3B0-4380-8C7B-1DB97549EFFB}" /><r id="{5F8FA4B0-4552-408C-A633-C284B9DAEC2F}" ph="footer" uid="{A34DF6D0-9EF7-46AE-93BD-848B5306F6AB}" /><r id="{07545510-E4E6-40C8-BA7C-DD80794ED399}" ph="postfooter" uid="{138241E8-F103-4030-B4FD-5790966E80CF}" /><r ds="{C17C5C4A-EB12-4D3C-92BD-37C2769A7D1E}" id="{AAEACAD9-739A-4D1E-AD03-835A5A3012D5}" par="CSSClass=social-buttons" ph="postfooter" uid="{FCC6E560-C153-40DC-9BA7-FB602011B204}" /><r ds="{604CA843-96F2-4BF7-A76C-EB4F00910F87}" id="{AAEACAD9-739A-4D1E-AD03-835A5A3012D5}" par="CSSClass=quicklinks" ph="postfooter" uid="{15EF002B-E5BC-4C45-B7DE-26FFF1A5255F}" /><r ds="{3F84D426-4540-4F04-BC2D-B78BACD51D1B}" id="{4C98D6E7-5EF0-418A-8546-9C9771AD9B4B}" par="" ph="pageend" uid="{FFC18849-47CA-45EB-9F96-BB16F7596690}" /><r ds="{C4BA4D7B-9F54-437A-AD5B-CA32B4E263A1}" id="{4C98D6E7-5EF0-418A-8546-9C9771AD9B4B}" par="" ph="pageend" uid="{CF70A19A-AEBA-4789-BA5D-A91CC8D13E95}" /><r ds="{578C6D2F-A3E1-4372-A1CF-AE1C6E12711E}" id="{4C98D6E7-5EF0-418A-8546-9C9771AD9B4B}" par="" ph="pageend" uid="{4711CB60-9E6A-4C44-ACE9-BFC980CE6F09}" /><r ds="{011B2DD5-B10A-495B-BAD7-869586958AB4}" id="{4C98D6E7-5EF0-418A-8546-9C9771AD9B4B}" par="" ph="pageend" uid="{EC376161-C5F2-416E-BA7E-0FB04488F5D8}" /><r ds="{54D01A47-3AED-4E90-A205-711E89BC94CC}" id="{4C98D6E7-5EF0-418A-8546-9C9771AD9B4B}" par="" ph="pageend" uid="{8BAD4785-CB13-4C1A-A4F1-16B8F53A7131}" /><r ds="{87EBAA2B-B229-4E65-9452-8374726376DB}" id="{4C98D6E7-5EF0-418A-8546-9C9771AD9B4B}" par="" ph="pageend" uid="{2962EE55-CD37-459D-B92C-7087C47FE9ED}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 3caefe55-de65-42bd-8cf8-409fdf95d64f
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 2660
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{BE77874F-8C77-4FF7-A88C-B96447E8391A}" p:before="*" s:ds="{ADCC010D-A03E-4DA6-B076-7C81F5E93842}" s:id="{DDA2CB06-55EE-46FB-AB97-326C10BBE230}" s:ph="/page-layout/section_84e418ae-b844-4dc3-99c3-f2245084831f" /><r uid="{F557D0EF-4BC9-4166-A5F6-77E4A1971B4A}" p:after="r[@uid='{BE77874F-8C77-4FF7-A88C-B96447E8391A}']" s:ds="{F360D9A3-B5BA-4B1A-90EB-B9F77B041A51}" s:id="{DDA2CB06-55EE-46FB-AB97-326C10BBE230}" s:ph="/page-layout/section_84e418ae-b844-4dc3-99c3-f2245084831f" /><r uid="{4584D75D-C5E2-4EB2-8150-858B2A266E9B}" p:after="r[@uid='{F557D0EF-4BC9-4166-A5F6-77E4A1971B4A}']" s:ds="{2A7A523E-D56B-41A0-B5A4-ABEFC6DD8AA8}" s:id="{DDA2CB06-55EE-46FB-AB97-326C10BBE230}" s:ph="/page-layout/section_84e418ae-b844-4dc3-99c3-f2245084831f" /><r uid="{E29DE6F3-E058-4E7F-AA8B-2263553FEEB2}" s:par="Identifier=services&amp;Heading=Services&amp;Subheading=Lorem ipsum dolor sit amet consectetur.&amp;CSSClass&amp;PlaceholderClass=text-center" /><r uid="{6534B04C-9D26-4C1F-9459-F892549ECA01}" s:par="Identifier=portfolio&amp;Heading=Portfolio&amp;Subheading=Lorem ipsum dolor sit amet consectetur.&amp;CSSClass=bg-light-gray&amp;PlaceholderClass" /><r uid="{6972B871-BBFC-4680-A87F-C7AD6D7D7424}" s:par="Identifier=about&amp;Heading=About&amp;Subheading=Lorem ipsum dolor sit amet consectetur.&amp;CSSClass&amp;PlaceholderClass" /><r uid="{84E418AE-B844-4DC3-99C3-F2245084831F}" p:after="r[@uid='{6972B871-BBFC-4680-A87F-C7AD6D7D7424}']" s:ds="" s:id="{C6BDCEEA-6BCC-4E9E-A282-DB4FE4CAEE6A}" s:par="Identifier=team&amp;Heading=Our Amazing Team&amp;Subheading=Lorem ipsum dolor sit amet consectetur.&amp;CSSClass=bg-light-gray&amp;PlaceholderClass&amp;Footer Text" s:ph="page-layout" /><r uid="{78F127F9-F1F5-4171-9D70-F0D51478200C}" s:ds="{DE39FCED-96CA-4CC0-8114-7C8AB9862D97}" s:par="" /><r uid="{DF7C3D0C-495E-4C93-BF2A-4DD625CCD475}"><p:d /></r><r uid="{348A312C-B3B0-4380-8C7B-1DB97549EFFB}"><p:d /></r><r uid="{72779B8C-97C7-4934-8D43-C9AEEAF43325}" p:after="r[@uid='{FFDF560B-C2F1-4DC7-8FDB-B712EA059E44}']" s:ds="{6B2E4BC5-1830-4229-A2D5-8A65CF8516E7}" s:id="{83472575-19A2-431F-93F2-9930098FE280}" s:par="FormID&amp;ReadQueryString" s:ph="/page-layout/section_348a312c-b3b0-4380-8c7b-1db97549effb" /><r uid="{FFC18849-47CA-45EB-9F96-BB16F7596690}"><p:d /></r><r uid="{CF70A19A-AEBA-4789-BA5D-A91CC8D13E95}"><p:d /></r><r uid="{4711CB60-9E6A-4C44-ACE9-BFC980CE6F09}"><p:d /></r><r uid="{EC376161-C5F2-416E-BA7E-0FB04488F5D8}"><p:d /></r><r uid="{8BAD4785-CB13-4C1A-A4F1-16B8F53A7131}"><p:d /></r><r uid="{2962EE55-CD37-459D-B92C-7087C47FE9ED}"><p:d /></r></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170423T230406Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3caefe55-de65-42bd-8cf8-409fdf95d64f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170528T215411Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

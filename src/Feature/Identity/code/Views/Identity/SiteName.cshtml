@@ -1,0 +1,13 @@
+﻿@using Sitecore.Feature.Identity.Repositories
+@using Sitecore.Feature.Identity.Templates
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var identity = IdentityRepository.Get(Model.Item);
+    if (identity == null)
+    {
+        return;
+    }
+}
+<a class="navbar-brand page-scroll" href="#page-top">
+    @Html.Sitecore().Field(__Identity.FieldIds.SiteName.ToString(), identity)
+</a>

@@ -1,0 +1,14 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="10" designerY="22">
+    <template templatename="ParametersTemplate_SectionProperties" templateid="{F72A2770-006D-49AD-83DA-569D18571F7A}" templateuri="/techguilds.dev.local/master/{F72A2770-006D-49AD-83DA-569D18571F7A}" classname="ParametersTemplate_SectionProperties">
+      <section id="{85F0ADCC-1AF3-4888-905C-CEDD12F7A3CF}" name="Parameters">
+        <field id="{1071C06B-DF67-4C4E-A420-75190007B662}" name="Identifier" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Identifier" />
+        <field id="{7D2D6787-2BE4-4C4A-B8FB-DAAE2E5D7B89}" name="Heading" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Heading" />
+        <field id="{0441FB38-A035-4665-BA88-0809EF6ADA81}" name="Subheading" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Subheading" />
+        <field id="{46FB0910-D994-4386-9582-F25BC87AE8FE}" name="CSSClass" shared="0" source="site:sectionclass" type="Droplist" unversioned="0" propertyname="CSSClass" />
+        <field id="{92278792-4E3A-47BF-9DD4-F216986997AD}" name="PlaceholderClass" shared="0" source="site:sectionplaceholderclass" type="Droplist" unversioned="0" propertyname="PlaceholderClass" />
+        <field id="{B91928A6-D26B-4271-9D36-B9F23B447852}" name="Footer Text" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="FooterText" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>

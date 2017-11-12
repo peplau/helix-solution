@@ -1,0 +1,109 @@
+----item----
+version: 1
+id: {578C6D2F-A3E1-4372-A1CF-AE1C6E12711E}
+database: master
+path: /sitecore/content/Helix/Global/Boxes with Modals/Treehouse
+parent: {07BFD0C3-7F9E-415C-9040-9B77E58461C1}
+name: Treehouse
+master: {00000000-0000-0000-0000-000000000000}
+template: {864C21DB-D9C4-41E5-8606-9DA338B600EF}
+templatekey: Box with Modal
+created: 20170506T184435Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----version----
+language: en
+version: 1
+revision: 886b50a8-1859-4a67-a45b-503dcb77a647
+
+----field----
+field: {F35D2956-0D4C-42F8-B50A-2AA1E81D7ACC}
+name: Box title
+key: box title
+content-length: 9
+
+Treehouse
+----field----
+field: {EC102602-45EF-478C-BEE9-44F47E6D5DB7}
+name: Box subtitle
+key: box subtitle
+content-length: 14
+
+Website Design
+----field----
+field: {FC108CF0-6828-4D8B-8955-1F6936F19E3E}
+name: Box image
+key: box image
+content-length: 58
+
+<image mediaid="{97505FEA-3C28-471E-80AE-620B091D0BC4}" />
+----field----
+field: {0ABB10F3-7E15-4803-A7DE-21E184EC555C}
+name: Modal title
+key: modal title
+content-length: 9
+
+Treehouse
+----field----
+field: {EAA44868-4E8F-4D31-B109-61F0CF18C843}
+name: Modal intro text
+key: modal intro text
+content-length: 39
+
+Lorem ipsum dolor sit amet consectetur.
+----field----
+field: {FDE400AF-E23B-4249-B46B-65F166CE50C0}
+name: Modal image
+key: modal image
+content-length: 58
+
+<image mediaid="{D6437A0A-52E3-4D5B-BE5A-07AF45E21307}" />
+----field----
+field: {73F1A95D-79B3-4B5C-AAB5-84EC7E804C59}
+name: Modal content
+key: modal content
+content-length: 418
+
+<p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+<p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170506T184435Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+886b50a8-1859-4a67-a45b-503dcb77a647
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170506T190404Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {76A792E5-8E03-4318-A810-ACCA0A9835A5}
+database: master
+path: /sitecore/content/Helix/Global/Links/Quicklinks/Terms of Use
+parent: {604CA843-96F2-4BF7-A76C-EB4F00910F87}
+name: Terms of Use
+master: {00000000-0000-0000-0000-000000000000}
+template: {A70328C2-7175-46D9-B381-D78CDD246906}
+templatekey: Link Menu Item
+created: 20170430T203554Z
+
+----version----
+language: en
+version: 1
+revision: 85c7cb92-1aa4-402e-bbbc-dbfdd9df656a
+
+----field----
+field: {27C1F6E7-5FA3-49BF-B49C-CFB7E1CD2FB2}
+name: Link
+key: link
+content-length: 83
+
+<link text="Terms of Use" linktype="anchor" url="#" anchor="#" title="" class="" />
+----field----
+field: {F4A40058-8ECB-4D9D-A4ED-9EA2D9D68A04}
+name: Navigation Title
+key: navigation title
+content-length: 12
+
+Terms of Use
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170430T203554Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+85c7cb92-1aa4-402e-bbbc-dbfdd9df656a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170430T213506Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

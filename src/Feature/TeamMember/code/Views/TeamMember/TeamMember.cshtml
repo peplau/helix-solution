@@ -1,0 +1,28 @@
+﻿@using Sitecore.Feature.TeamMember.Templates;
+@model Sitecore.Mvc.Presentation.Rendering
+@{
+}
+<div class="col-sm-4">
+    <div class="team-member">
+        @Html.Sitecore().Field(__TeamMember.FieldIds.Picture.ToString(), Model.Item, new {@class= "img-responsive img-circle" })
+        <h4>@Html.Sitecore().Field(__TeamMember.FieldIds.Name.ToString(), Model.Item)</h4>
+        <p class="text-muted">@Html.Sitecore().Field(__TeamMember.FieldIds.Role.ToString(), Model.Item)</p>
+        <ul class="list-inline social-buttons">
+            <li>
+                @Html.Sitecore().BeginField(__TeamMember.FieldIds.Twitter.ToString(), Model.Item)
+                    <i class="fa fa-twitter"></i>
+                @Html.Sitecore().EndField()
+            </li>
+            <li>
+                @Html.Sitecore().BeginField(__TeamMember.FieldIds.Facebook.ToString(), Model.Item)
+                    <i class="fa fa-facebook"></i>
+                @Html.Sitecore().EndField()
+            </li>
+            <li>
+                @Html.Sitecore().BeginField(__TeamMember.FieldIds.LinkedIn.ToString(), Model.Item)
+                    <i class="fa fa-linkedin"></i>
+                @Html.Sitecore().EndField()
+            </li>
+        </ul>
+    </div>
+</div>

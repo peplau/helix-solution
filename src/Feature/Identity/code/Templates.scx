@@ -1,0 +1,14 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="25" designerY="29">
+    <template templatename="_Identity" templateid="{BE2D9C65-CDEB-429D-A4F6-414F745A651B}" templateuri="/techguilds.dev.local/master/{BE2D9C65-CDEB-429D-A4F6-414F745A651B}" classname="__Identity">
+      <section id="{A33DD32A-BD7E-4118-9044-3165C12E1407}" name="Identity">
+        <field id="{78569355-00D5-4063-B869-328BAEA58CD2}" name="Site Name" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="SiteName" />
+        <field id="{70F1EC5F-5391-4C02-A330-5D7CED742E90}" name="Copyright" shared="0" source="" type="Rich Text" unversioned="0" propertyname="Copyright" />
+      </section>
+      <section id="{E0C801C6-E9EF-4373-BC5A-B3D4D82515FB}" name="Organisation">
+        <field id="{3AD56A87-670A-438F-8FE5-707515C723FF}" name="Organization Name" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="OrganizationName" />
+        <field id="{2953BEE7-18D6-4230-92C3-457682A89F75}" name="Organization Email" shared="0" source="" type="General Link" unversioned="0" propertyname="OrganizationEmail" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>
